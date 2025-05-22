@@ -11,7 +11,7 @@ function getCategoryPositions(category) {
     };
     request.send();
 }
-getCategoryPositions("cakes");
+getCategoryPositions("Cakes");
 function setPositions(categoryData, categoryName) {
     var container = document.getElementById("catalog-container");
     if (!container)
