@@ -1,5 +1,5 @@
 function getCategoryPositions(category) {
-    var filename = "../".concat(category, ".json");
+    var filename = "./".concat(category, ".json");
     var request = new XMLHttpRequest();
     request.open("GET", filename);
     request.onreadystatechange = function () {
